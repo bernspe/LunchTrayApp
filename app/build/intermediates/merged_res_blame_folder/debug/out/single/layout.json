@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_accompaniment_menu.xml",
+        "source": "com.example.lunchtray.app-main-49:/layout/fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_side_menu.xml",
+        "source": "com.example.lunchtray.app-main-49:/layout/fragment_side_menu.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_checkout.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_accompaniment_menu.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_accompaniment_menu.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_entree_menu.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_entree_menu.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_start_order.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_start_order.xml"
+    },
+    {
+        "merged": "com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_checkout.xml",
+        "source": "com.example.lunchtray.app-main-49:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-mergeDebugResources-46:/layout/fragment_side_menu.xml",
+        "source": "/Volumes/1TB/Users/peterbernstein/.gradle/daemon/7.4.2/com.example.lunchtray.app-main-49:/layout/fragment_side_menu.xml"
+    }
+]

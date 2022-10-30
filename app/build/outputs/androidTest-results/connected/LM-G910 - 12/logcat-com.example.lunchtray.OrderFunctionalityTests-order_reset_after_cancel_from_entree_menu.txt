@@ -1,0 +1,597 @@
+10-30 07:21:08.217 19032 19053 I TestRunner: started: order_reset_after_cancel_from_entree_menu(com.example.lunchtray.OrderFunctionalityTests)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x7317fb2e00) dcb9bf0 StatusBar#0 (parent=Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove BufferStateLayer(0x7317fcc810) StatusBar@2756#0 (parent=dcb9bf0 StatusBar#0)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318074840) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807a360) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318082c10) Task=903#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Task=903#1 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731809c620) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731809f3b0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x73180a2140) ActivityRecord{9c09f94 u0 com.example.lunchtray/.MainActivity t903}#0 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180d27d0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.220  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180d5560) Surface(name=e4973b7 InputMethod)/@0x766a28d - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x731807a360)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x731809c620)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x731809f3b0)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x73180d27d0)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy ActivityRecord{9c09f94 u0 com.example.lunchtray/.MainActivity t903}#0(0x73180a2140)
+10-30 07:21:08.220  1499  1499 D Layer   : Destroy Task=903#1(0x7318088730)
+10-30 07:21:08.221  2756  3815 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.221  2756  3815 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.225 19032 19053 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-30 07:21:08.231  1499  1533 D SurfaceFlinger: Create EffectLayer(0x73180d27d0) Task=904#0
+10-30 07:21:08.231  1673  1699 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+10-30 07:21:08.231  1673  1699 I PowerRM : FIA lock1 locked
+10-30 07:21:08.231  1673  1699 E PRM_CONFIG_Parser: get_custom_config not found
+10-30 07:21:08.233  1499  1533 D SurfaceFlinger: Create ContainerLayer(0x731809f3b0) ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904}#0
+10-30 07:21:08.236  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318074840) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.236  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.236  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x7318074840)
+10-30 07:21:08.236  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x731807d0f0)
+10-30 07:21:08.237  1499  2493 D SurfaceFlinger: Create EffectLayer(0x7318088730) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.238  3488  3488 I [LGHome6]Launcher: onTopResumedActivityChanged state = false
+10-30 07:21:08.238  1499  2493 D SurfaceFlinger: Create EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.239  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.244  3488  3488 I [LGHome6]LauncherCallbacksImpl: Launcher.onPause // 9.60.21(96002100) this:com.lge.launcher3.LauncherExtension$LauncherCallbacksImpl@fcfd6f7
+10-30 07:21:08.246  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.250  5181 24859 D TopPackageTracker: activityChanged callMethod=1 packageName=com.example.lunchtray displayid=0
+10-30 07:21:08.250  5181 24859 D TopPackageTracker: onTopPackageChanged displayId=0, com.lge.launcher3->com.example.lunchtray
+10-30 07:21:08.250  5181 24859 D GameToolsWindow: getTopActivityAsDisplay : 0
+10-30 07:21:08.251  1499  2493 D SurfaceFlinger: Create EffectLayer(0x7318074840) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.251  5181 24859 I GameToolsService: no game is running, stop everything
+10-30 07:21:08.251  5181 24859 I GameToolsWindow: forceHide, Game is Not Running
+10-30 07:21:08.252  1499  1533 D SurfaceFlinger: Create EffectLayer(0x73180a2140) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.253  5181 24859 I GameToolsDBManager: DB changed to: false
+10-30 07:21:08.253  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a7c60) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.253  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.253  5181  5181 D GameToolsWindow: getTopActivityAsDisplay : 0
+10-30 07:21:08.253  5181 24859 D TopPackageTracker: activityChanged callMethod=1 packageName=com.example.lunchtray displayid=0
+10-30 07:21:08.254  5181  5181 I GameToolsService: no game is running, stop everything
+10-30 07:21:08.254  5181  5181 I GameToolsWindow: forceHide, Game is Not Running
+10-30 07:21:08.258  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity}
+10-30 07:21:08.258  1499  3633 D SurfaceFlinger: Create ContainerLayer(0x731809c620) 5f14fe Splash Screen com.example.lunchtray#0
+10-30 07:21:08.260  2756  2902 I TouchFilterInputStageHelper: [needTouchEventFilter] Displayid : 0
+10-30 07:21:08.260  1945  3374 W ActivityManager: Sending non-protected broadcast com.sld.stop_game from system 3097:com.lge.systemserver/1000 pkg com.lge.systemservice
+10-30 07:21:08.260  1945  3374 W ActivityManager: Sending non-protected broadcast com.sld.stop_game from system 3097:com.lge.systemserver/1000 pkg com.lge.systemservice
+10-30 07:21:08.262  2756  2756 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.263  2756  2902 D HandGripFilter: getdisplaysize, x : 1080 y : 2460
+10-30 07:21:08.263  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.263 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: PRE_ON_CREATE
+10-30 07:21:08.263 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.263 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.266  2756  2756 D Bubbles : onTaskMovedToFront(), taskInfo = 904
+10-30 07:21:08.266  5181  5181 I GameToolsDBManager: DB changed to: false
+10-30 07:21:08.267  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.267  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.268  1499  1533 D SurfaceFlinger: Create BufferStateLayer(0x731807a360) Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.268  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.269  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.270  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.270  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a7c60) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.270  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.270  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x73180a7c60)
+10-30 07:21:08.270  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x73180cfa40)
+10-30 07:21:08.270 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: CREATED
+10-30 07:21:08.270  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x731807d0f0)
+10-30 07:21:08.270  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x7318088730)
+10-30 07:21:08.270 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.270  1499  1533 D SurfaceFlinger: Create EffectLayer(0x7318088730) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.270  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.270 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.271  1499  3633 D SurfaceFlinger: Create EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.271 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: STARTED
+10-30 07:21:08.271 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.271 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.274  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.275  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180a7c60) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.279  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity}
+10-30 07:21:08.280  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180636e0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.281  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180859a0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.283  3097  3097 D SLD     : DRM IS OFF STOP
+10-30 07:21:08.286  1499  2493 D SurfaceFlinger: Create ContainerLayer(0x73180ec1e0) ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904}#0
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318074840) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a2140) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a7c60) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.287  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.287  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x731807d0f0)
+10-30 07:21:08.287  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x7318088730)
+10-30 07:21:08.287  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x73180a7c60)
+10-30 07:21:08.287  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x73180cfa40)
+10-30 07:21:08.288  1945  5031 D InputDispatcher: Window went away: b82c9e2 com.lge.launcher3/com.lge.launcher3.LauncherExtension
+10-30 07:21:08.288  1945  5031 D InputDispatcher: Window went away: 61a7f75 com.lge.launcher3/com.lge.launcher3.LauncherExtension
+10-30 07:21:08.289  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.290  1673  1699 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+10-30 07:21:08.290  1673  1699 E PRM_CONFIG_Parser: get_custom_config not found
+10-30 07:21:08.290  1499  3633 D SurfaceFlinger: Create EffectLayer(0x7318088730) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.293 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: RESUMED
+10-30 07:21:08.293 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.293 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.295  1499  3633 D SurfaceFlinger: Create EffectLayer(0x731807d0f0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.295  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.295  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.296  1499  3633 D SurfaceFlinger: Create EffectLayer(0x73180d82f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.299  2756  2756 I SizeCompatUIController: onSizeCompatInfoChanged#0 called
+10-30 07:21:08.299  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.299  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.299  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.299  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.300  2756  2756 D ImageWallpaper.DrawableEngine@114146216#0: drawFrame(onVisibilityChanged-INVISIBLE)
+10-30 07:21:08.300  2756  2756 D ImageWallpaper.DrawableEngine@114146216#0: drawFrame, !redrawNeeded && !mOffsetsChanged
+10-30 07:21:08.300  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180a7c60) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.301  1499  3633 D SurfaceFlinger: Create EffectLayer(0x731808b4c0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.303  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180636e0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.303  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180859a0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.303  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.303  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.305  1945  3374 D InputDispatcher: Window went away: Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.305  1499  1533 D SurfaceFlinger: Create EffectLayer(0x731807fe80) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.306  1499  1533 D SurfaceFlinger: Create EffectLayer(0x731804ca60) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.309  2756  3244 D PhoneStatusBarPolicy: updateManagedProfile userId = 0
+10-30 07:21:08.310  3097 22921 D RoundCornerMask: metaData is null
+10-30 07:21:08.310  1499  2493 D SurfaceFlinger: Create EffectLayer(0x7318041420) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.311  1499  1533 D SurfaceFlinger: Create EffectLayer(0x7318033050) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.314  1499  1533 D SurfaceFlinger: Create EffectLayer(0x73180b32a0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.314  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.314 15222 15222 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+10-30 07:21:08.314 15222 15222 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+10-30 07:21:08.315  1499  1533 D SurfaceFlinger: Create EffectLayer(0x73180e0ba0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.317  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.318  3097 22921 D RoundCornerMask: metaData is null
+10-30 07:21:08.319 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: PAUSED
+10-30 07:21:08.319 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.319 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.319  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.319  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318033050) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318041420) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731804ca60) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180636e0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807fe80) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180859a0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731808b4c0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a7c60) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180d82f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.321  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.321  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x73180636e0)
+10-30 07:21:08.321  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x73180859a0)
+10-30 07:21:08.321  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x7318088730)
+10-30 07:21:08.321  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x73180cfa40)
+10-30 07:21:08.322  1945  5020 D InputDispatcher: Window went away: 5f14fe Splash Screen com.example.lunchtray
+10-30 07:21:08.324  5181 24859 D TopPackageTracker: activityChanged callMethod=1 packageName=com.example.lunchtray displayid=0
+10-30 07:21:08.324  5181 22893 D TopPackageTracker: activityChanged callMethod=1 packageName=com.example.lunchtray displayid=0
+10-30 07:21:08.324  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.325  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.325  1499  1499 I MiniDump: -------------------------------------------------------------------------------------------
+10-30 07:21:08.325  1499  1499 I MiniDump: [ROTATION_0] H |  Comp Type |  Transform |  Alpha |  Disp Frame (LTRB) |  Source Crop (LTRB) | Frame Rate  | Disp[4630946736071014273] ""
+10-30 07:21:08.325  1499  1499 I MiniDump: 0x7317fcc810 |     DEVICE |          0 | 1.000 |    0    0 1080   76 |   0.0   0.0 1080.0  76.0 | StatusBar@2756#0
+10-30 07:21:08.325  1499  1499 I MiniDump: 0x7317fd50c0 |     DEVICE |          0 | 1.000 |    0 2334 1080 2460 |   0.0   0.0 1080.0 126.0 | NavigationBar0@2756#0
+10-30 07:21:08.325  1499  1499 I MiniDump: 0x7317fbb6b0 |     DEVICE |          0 | 1.000 |    0    0 1080   88 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlay@2756#0
+10-30 07:21:08.325  1499  1499 I MiniDump: 0x7317fb8920 |     DEVICE |          0 | 1.000 |    0 2372 1080 2460 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlayBottom@2756#0
+10-30 07:21:08.325  1499  2493 D SurfaceFlinger: Create EffectLayer(0x7318088730) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.328  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180859a0) Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-leash of app_transition#0
+10-30 07:21:08.329  1499  2493 D SurfaceFlinger: Create ContainerLayer(0x73180636e0) Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-bounds#0
+10-30 07:21:08.330  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180cccb0) Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-leash of app_transition#0
+10-30 07:21:08.331  1499  2493 D SurfaceFlinger: Create ContainerLayer(0x73180775d0) Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-bounds#0
+10-30 07:21:08.332  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.332  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.332  2756  2756 I LightBarTransitionsController: appTransitionStarting():  [isKeyguardGoingAway = false], [(mDisplayId != displayId) = false], [!forced = true]
+10-30 07:21:08.333  1499  1533 D SurfaceFlinger: Create EffectLayer(0x7318071ab0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1
+10-30 07:21:08.334  1499  1533 D SurfaceFlinger: Create EffectLayer(0x7318060950) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1
+10-30 07:21:08.335  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.336  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180b32a0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.336  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180e0ba0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.336  2756  2756 D SysUiState: setFlag#0 flags=16 enabled=false
+10-30 07:21:08.336  2756  2756 D SysUiState: setFlag#0 flags=32 enabled=false
+10-30 07:21:08.336  2756  2756 D SysUiState: setFlag#0 flags=2 enabled=false
+10-30 07:21:08.336  2756  2756 D SysUiState: setFlag#0 flags=262144 enabled=false
+10-30 07:21:08.336  2756  2756 D SysUiState: setFlag#0 flags=131072 enabled=true
+10-30 07:21:08.336  2756  2756 D SysUiState: commitUpdate#0
+10-30 07:21:08.336  2756  2756 D SysUiState: updateFlags#0 updated: old=0 new=131072
+10-30 07:21:08.336  2756  2756 D OverviewProxyService: notifySystemUiStateFlags, display id = 0, flags = 131072
+10-30 07:21:08.336  3488  4973 I [LGHome6]TouchInteractionService: onSystemUiStateChanged. displayId(0), stateFlags(131072)
+10-30 07:21:08.343  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.347 15411 15411 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+10-30 07:21:08.347 15411 15458 I HwDetectorWithState: (REDACTED) a: %d
+10-30 07:21:08.348  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318033050) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318041420) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731804ca60) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807d0f0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731807fe80) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318088730) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180b32a0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cfa40) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180d82f0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.353  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180e0ba0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0 (parent=none)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x7318033050)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x7318041420)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x731804ca60)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x731807d0f0)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x731807fe80)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0(0x73180b32a0)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x73180d82f0)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0(0x73180e0ba0)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x7318088730)
+10-30 07:21:08.353  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x73180cfa40)
+10-30 07:21:08.355  1945  5026 D InputDispatcher: Window went away: Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.355  2756  3244 D PhoneStatusBarPolicy: updateManagedProfile userId = 0
+10-30 07:21:08.357  3097 31192 D RoundCornerMask: metaData is null
+10-30 07:21:08.357  1499  1499 I MiniDump: -------------------------------------------------------------------------------------------
+10-30 07:21:08.357  1499  1499 I MiniDump: [ROTATION_0] H |  Comp Type |  Transform |  Alpha |  Disp Frame (LTRB) |  Source Crop (LTRB) | Frame Rate  | Disp[4630946736071014273] ""
+10-30 07:21:08.357  1499  1499 I MiniDump: 0x731807a360 |     DEVICE |          0 | 1.000 |    0    0 1080 2460 |   0.0   0.0 1080.0 2460.0 | Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.357  1499  1499 I MiniDump: 0x7317fcc810 |     DEVICE |          0 | 1.000 |    0    0 1080   76 |   0.0   0.0 1080.0  76.0 | StatusBar@2756#0
+10-30 07:21:08.357  1499  1499 I MiniDump: 0x7317fd50c0 |     DEVICE |          0 | 1.000 |    0 2334 1080 2460 |   0.0   0.0 1080.0 126.0 | NavigationBar0@2756#0
+10-30 07:21:08.357  1499  1499 I MiniDump: 0x7317fbb6b0 |     DEVICE |          0 | 1.000 |    0    0 1080   88 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlay@2756#0
+10-30 07:21:08.357  1499  1499 I MiniDump: 0x7317fb8920 |     DEVICE |          0 | 1.000 |    0 2372 1080 2460 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlayBottom@2756#0
+10-30 07:21:08.357  3488  3488 I [LGHome6]StateManager: [RecentsAnimation] goToState(): (LauncherState - 0 -> LauncherState - 0), animated=false, delay=0, onCompleteRunnable=null
+10-30 07:21:08.357  3488  3488 I [LGHome6]StateManager: [RecentsAnimation] goToState(): 1. isInState LauncherState - 0
+10-30 07:21:08.358  3488  3488 I [LGHome6]Launcher: Launcher.onStop
+10-30 07:21:08.358 19032 19032 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@6c8a378 in: PRE_ON_CREATE
+10-30 07:21:08.359 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-30 07:21:08.359 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-30 07:21:08.368  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.368  3488  3488 I [LGHome6]EditModeOffManager: EditModeOffManager is not running
+10-30 07:21:08.368  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.368  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.369  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x73180636e0) Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-bounds#0 (parent=none)
+10-30 07:21:08.369  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x73180775d0) Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-bounds#0 (parent=none)
+10-30 07:21:08.369  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180859a0) Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-leash of app_transition#0 (parent=none)
+10-30 07:21:08.369  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cccb0) Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-leash of app_transition#0 (parent=none)
+10-30 07:21:08.369  1499  1499 D Layer   : Destroy Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-bounds#0(0x73180775d0)
+10-30 07:21:08.369  1499  1499 D Layer   : Destroy Surface(name=ActivityRecord{ea3616f u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t904})/@0xca55b28 - animation-leash of app_transition#0(0x73180cccb0)
+10-30 07:21:08.369  1499  1499 D Layer   : Destroy Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-bounds#0(0x73180636e0)
+10-30 07:21:08.369  1499  1499 D Layer   : Destroy Surface(name=ActivityRecord{b3137e5 u0 com.example.lunchtray/.MainActivity t904})/@0x27c8cc5 - animation-leash of app_transition#0(0x73180859a0)
+10-30 07:21:08.374  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.377  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.377 19032 19032 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@6c8a378 in: CREATED
+10-30 07:21:08.378 19032 19032 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.378  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.378 19032 19032 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.378  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.379  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.381  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.381  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.381  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.383  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.385 19032 19032 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@6c8a378 in: STARTED
+10-30 07:21:08.385  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.386 19032 19032 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.386 19032 19032 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.386  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.386  1499  1499 I SurfaceFlinger: Remove BufferStateLayer(0x7317ff45f0) com.lge.launcher3/com.lge.launcher3.LauncherExtension@3488#0 (parent=none)
+10-30 07:21:08.386  1499  1499 I SurfaceFlinger: Remove BufferStateLayer(0x731803b900) com.lge.launcher3/com.lge.launcher3.LauncherExtension@15222#0 (parent=none)
+10-30 07:21:08.386  1499  1499 D Layer   : Destroy com.lge.launcher3/com.lge.launcher3.LauncherExtension@3488#0(0x7317ff45f0)
+10-30 07:21:08.386  1499  1499 D Layer   : Destroy com.lge.launcher3/com.lge.launcher3.LauncherExtension@15222#0(0x731803b900)
+10-30 07:21:08.386  2756  3836 I GameToolsControllerService: game removed from map {}
+10-30 07:21:08.387 19032 19032 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@6c8a378 in: RESUMED
+10-30 07:21:08.387 19032 19032 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.387 19032 19032 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@6c8a378
+10-30 07:21:08.388  1945  1965 D InputDispatcher: Window went away: com.lge.launcher3/com.lge.launcher3.LauncherExtension@15222#0
+10-30 07:21:08.388  1945  1965 D InputDispatcher: Window went away: com.lge.launcher3/com.lge.launcher3.LauncherExtension@3488#0
+10-30 07:21:08.390  2756  3836 D StatusBar: mainDisplayTopActivityComponentName : ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity}
+10-30 07:21:08.393  1499  2493 D SurfaceFlinger: Create ContainerLayer(0x73180cfa40) a493896 com.example.lunchtray/com.example.lunchtray.MainActivity#0
+10-30 07:21:08.395 19032 19032 D DecorView: [DecorView][notifyViewAdded] token = android.view.ViewRootImpl$WEx@92e8298
+10-30 07:21:08.395  2756  2756 I StatusBar: updateStatusBarColor(): mApplyNotchStatusBar=false delay=true isPort=true
+10-30 07:21:08.396  2756  2756 I LightBarTransitionsController: animateIconTint() : skip : mNextDarkIntensity = 0.0
+10-30 07:21:08.396 19032 19032 I TouchFilterInputStageHelper: [needTouchEventFilter] Displayid : 0
+10-30 07:21:08.396 19032 19032 D HandGripFilter: getdisplaysize, x : 1080 y : 2460
+10-30 07:21:08.407  1499  2493 D SurfaceFlinger: Create BufferStateLayer(0x7317ff45f0) com.example.lunchtray/com.example.lunchtray.MainActivity@19032#0
+10-30 07:21:08.410  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180636e0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0
+10-30 07:21:08.411  1673  1699 I PowerRM : System FW:1 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+10-30 07:21:08.411  1673  1699 I PowerRM : System FW:0 IC:0 SO:0 GT:0 CAPP:-1 APP:0
+10-30 07:21:08.411  1673  1699 I PowerRM : FIA lock1 unlocked
+10-30 07:21:08.411  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180775d0) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#0
+10-30 07:21:08.411  1945  2015 D IStatusBar.Stub: updateNavigationBarColor(0, -16777216)
+10-30 07:21:08.412  2756  2792 D IStatusBar.Stub : CommandQueue: updateNavigationBarColor(0, -16777216)
+10-30 07:21:08.412  2756  2756 I NavigationThemeResource: display(0) notify navigation bar color(0xff000000)
+10-30 07:21:08.412  2756  2756 I NavigationThemeResource: WmEx Color dark = -16777216
+10-30 07:21:08.412  2756  2756 I NavigationThemeResource: NavigationKey(0) Color is changed(WHITE_WITH_BORDER -> WHITE)
+10-30 07:21:08.412  2756  2756 I NavigationThemeResource:  BarMode=-1, Theme=WHITE, LightBackground=false, mNavigationLight=false (NOT Transparent)
+10-30 07:21:08.412  2756  2756 I NavigationThemeResource: , Keyguard show=false, IME shown=false, Bar vertical=true, Panel expanded=false
+10-30 07:21:08.424  2756  2756 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.427  1499  2493 D SurfaceFlinger: Create EffectLayer(0x731803b900) Surface(name=a493896 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x87a2070 - animation-leash of starting_reveal#0
+10-30 07:21:08.430 19032 19032 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+10-30 07:21:08.435  1363 18492 D sensors_hal_light: handle_sns_std_sensor_event:79, ambient_light_event: ts=285453881215384, lux = 17, raw_adc=37, pdata=40
+10-30 07:21:08.435  1363 18506 D sensors_hal_accel: handle_sns_client_event:446, accel_sample(accelcal_available:0): ts=285453613568092 ns; value = [0.159752, -0.025285, 9.815153], status=3
+10-30 07:21:08.435 19032 19032 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de in: STOPPED
+10-30 07:21:08.435 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.436 19032 19032 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@be065de
+10-30 07:21:08.436  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x7317fb2e00) dcb9bf0 StatusBar#0 (parent=Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#0)
+10-30 07:21:08.436  1499  1499 I SurfaceFlinger: Remove BufferStateLayer(0x7317fcc810) StatusBar@2756#0 (parent=dcb9bf0 StatusBar#0)
+10-30 07:21:08.436  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318060950) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.436  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x7318071ab0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.436  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x7318071ab0)
+10-30 07:21:08.436  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x7318060950)
+10-30 07:21:08.437  1945  1965 D InputDispatcher: Window went away: com.example.lunchtray/com.example.lunchtray.MainActivity@19032#0
+10-30 07:21:08.439  1499  2493 D SurfaceFlinger: Create EffectLayer(0x73180cccb0) Surface(name=5f14fe Splash Screen com.example.lunchtray)/@0x31ac2ba - animation-leash of window_animation#0
+10-30 07:21:08.442  1499  1499 I MiniDump: -------------------------------------------------------------------------------------------
+10-30 07:21:08.442  1499  1499 I MiniDump: [ROTATION_0] H |  Comp Type |  Transform |  Alpha |  Disp Frame (LTRB) |  Source Crop (LTRB) | Frame Rate  | Disp[4630946736071014273] ""
+10-30 07:21:08.442  1499  1499 I MiniDump: 0x7317ff45f0 |     DEVICE |          0 | 1.000 |    0    0 1080 2460 |   0.0   0.0 1080.0 2460.0 | com.example.lunchtray/com[...]tray.MainActivity@19032#0
+10-30 07:21:08.442  1499  1499 I MiniDump: 0x731807a360 |     DEVICE |          0 | 1.000 |    0    0 1080 2460 |   0.0   0.0 1080.0 2460.0 | Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.442  1499  1499 I MiniDump: 0x7317fcc810 |     DEVICE |          0 | 1.000 |    0    0 1080   76 |   0.0   0.0 1080.0  76.0 | StatusBar@2756#0
+10-30 07:21:08.442  1499  1499 I MiniDump: 0x7317fd50c0 |     DEVICE |          0 | 1.000 |    0 2334 1080 2460 |   0.0   0.0 1080.0 126.0 | NavigationBar0@2756#0
+10-30 07:21:08.442  1499  1499 I MiniDump: 0x7317fbb6b0 |     DEVICE |          0 | 1.000 |    0    0 1080   88 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlay@2756#0
+10-30 07:21:08.443  1499  1499 I MiniDump: 0x7317fb8920 |     DEVICE |          0 | 1.000 |    0 2372 1080 2460 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlayBottom@2756#0
+10-30 07:21:08.445  1945  1965 W InputManager-JNI: Input channel object '5f14fe Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+10-30 07:21:08.447  1499  1533 D SurfaceFlinger: Create EffectLayer(0x7318088730) Surface(name=e4973b7 InputMethod)/@0x766a28d - animation-leash of insets_animation#0
+10-30 07:21:08.452  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731803b900) Surface(name=a493896 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x87a2070 - animation-leash of starting_reveal#0 (parent=none)
+10-30 07:21:08.452  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180441b0) Surface(name=e4973b7 InputMethod)/@0x766a28d - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.452  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x731808b4c0) Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.452  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180a7c60) Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1 (parent=none)
+10-30 07:21:08.453  1499  1499 D Layer   : Destroy Surface(name=dcb9bf0 StatusBar)/@0xac9fa55 - animation-leash of insets_animation#1(0x731808b4c0)
+10-30 07:21:08.453  1499  1499 D Layer   : Destroy Surface(name=5efab5d NavigationBar0)/@0xb1951a3 - animation-leash of insets_animation#1(0x73180a7c60)
+10-30 07:21:08.453  1499  1499 D Layer   : Destroy Surface(name=e4973b7 InputMethod)/@0x766a28d - animation-leash of insets_animation#1(0x73180441b0)
+10-30 07:21:08.454  1945  5020 D InputDispatcher: Window went away: 5f14fe Splash Screen com.example.lunchtray
+10-30 07:21:08.455  2756  3815 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.456  2756  3815 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+10-30 07:21:08.457  1945  1958 I system_server: NativeAlloc concurrent copying GC freed 816090(41MB) AllocSpace objects, 53(4888KB) LOS objects, 42% free, 64MB/112MB, paused 166us,138us total 257.861ms
+10-30 07:21:08.457  1499  1499 I MiniDump: -------------------------------------------------------------------------------------------
+10-30 07:21:08.457  1499  1499 I MiniDump: [ROTATION_0] H |  Comp Type |  Transform |  Alpha |  Disp Frame (LTRB) |  Source Crop (LTRB) | Frame Rate  | Disp[4630946736071014273] ""
+10-30 07:21:08.457  1499  1499 I MiniDump: 0x7317ff45f0 |     DEVICE |          0 | 1.000 |    0    0 1080 2460 |   0.0   0.0 1080.0 2460.0 | com.example.lunchtray/com[...]tray.MainActivity@19032#0
+10-30 07:21:08.457  1499  1499 I MiniDump: 0x7317fcc810 |     DEVICE |          0 | 1.000 |    0    0 1080   76 |   0.0   0.0 1080.0  76.0 | StatusBar@2756#0
+10-30 07:21:08.457  1499  1499 I MiniDump: 0x7317fd50c0 |     DEVICE |          0 | 1.000 |    0 2334 1080 2460 |   0.0   0.0 1080.0 126.0 | NavigationBar0@2756#0
+10-30 07:21:08.457  1499  1499 I MiniDump: 0x7317fbb6b0 |     DEVICE |          0 | 1.000 |    0    0 1080   88 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlay@2756#0
+10-30 07:21:08.457  1499  1499 I MiniDump: 0x7317fb8920 |     DEVICE |          0 | 1.000 |    0 2372 1080 2460 |   0.0   0.0 1080.0  88.0 | ScreenDecorOverlayBottom@2756#0
+10-30 07:21:08.462  1945  1960 W System  : A resource failed to call release.
+10-30 07:21:08.463  1945  1960 W System  : A resource failed to call release.
+10-30 07:21:08.463  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.463  1945  1960 W System  : A resource failed to call release.
+10-30 07:21:08.463  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.464  1945  1960 W System  : A resource failed to call release.
+10-30 07:21:08.464  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.464  1945  1960 W System  : A resource failed to call release.
+10-30 07:21:08.465  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.466  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.467  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.467  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.469  1499  1499 I SurfaceFlinger: Remove BufferStateLayer(0x731807a360) Splash Screen com.example.lunchtray@2756#0 (parent=none)
+10-30 07:21:08.469  1499  1499 I SurfaceFlinger: Remove ContainerLayer(0x731809c620) 5f14fe Splash Screen com.example.lunchtray#0 (parent=none)
+10-30 07:21:08.469  1499  1499 I SurfaceFlinger: Remove EffectLayer(0x73180cccb0) Surface(name=5f14fe Splash Screen com.example.lunchtray)/@0x31ac2ba - animation-leash of window_animation#0 (parent=none)
+10-30 07:21:08.469  1499  1499 D Layer   : Destroy Surface(name=5f14fe Splash Screen com.example.lunchtray)/@0x31ac2ba - animation-leash of window_animation#0(0x73180cccb0)
+10-30 07:21:08.469  1499  1499 D Layer   : Destroy 5f14fe Splash Screen com.example.lunchtray#0(0x731809c620)
+10-30 07:21:08.470  1499  1499 D Layer   : Destroy Splash Screen com.example.lunchtray@2756#0(0x731807a360)
+10-30 07:21:08.470 19032 19032 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+10-30 07:21:08.471  1945  5020 D InputDispatcher: Window went away: Splash Screen com.example.lunchtray@2756#0
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.472  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863403000000, pointerCount=1
+10-30 07:21:08.483  1945  1960 W System  : A resource failed to call close.
+10-30 07:21:08.495  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.520  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.535  1363 18492 D sensors_hal_light: handle_sns_std_sensor_event:79, ambient_light_event: ts=285453982727624, lux = 18, raw_adc=39, pdata=36
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863403000000, eventTime=123863485000000, pointerCount=1
+10-30 07:21:08.553 19032 19032 I View    : PerformClick: com.google.android.material.button.MaterialButton{21a43ba VFED..C.. ...P.... 349,1045-731,1171 #7f0801e8 app:id/start_order_btn}
+10-30 07:21:08.554 19032 19032 I View    : MotionEvent.ACTION_UP: mPrivateFlags: 16828464,   mHasPerformedLongPress: false,   mIgnoreNextUpEvent: false
+10-30 07:21:08.554  1945  2548 V SoundPool: play(soundID=1, leftVolume=1.000000, rightVolume=1.000000, priority=0, loop=0, rate=1.000000)
+10-30 07:21:08.555  1945  2548 V AudioTrack: setSampleRate(546): prior state:STATE_STOPPED rate:48000
+10-30 07:21:08.555  1945  2548 V AudioTrack: start(546): prior state:STATE_STOPPED
+10-30 07:21:08.555  1945  2548 V AudioTrack: start(546): server read:-856656  cumulative flushed:0  client written:0
+10-30 07:21:08.555  2580 20491 V AF::Track: start(571): calling pid 1945 session 4681
+10-30 07:21:08.555  2580 20491 V AudioPolicyService: AudioCommandThread() adding start output portId 546
+10-30 07:21:08.555  2580 20491 V AudioPolicyService: inserting command: 3 at index 0, num commands 0
+10-30 07:21:08.555  2580  2595 V AudioPolicyService: AudioCommandThread() processing start output portId 546
+10-30 07:21:08.555  2580  2595 D APM_AudioPolicyManager: startOutput portId 546 output primary->(primary output)(13), stream 1, session 4681
+10-30 07:21:08.555  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+10-30 07:21:08.555  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:08.555  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+10-30 07:21:08.555  2580  2595 V APM_AudioPolicyManager: setOutputDevices device {type:0x2,@:} delayMs 0
+10-30 07:21:08.555  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:08.556  2580  2595 V APM_AudioPolicyManager: setOutputDevices: suppressing checkDeviceMuteStrategies
+10-30 07:21:08.556  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device {type:0x2,@:} or null device, force=0, patch handle=4
+10-30 07:21:08.556  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:08.556  1945  2548 V SoundPool: play returned 2728
+10-30 07:21:08.562  1945  5020 V AudioSystem: ioConfigChanged() event 8
+10-30 07:21:08.562  1945  5020 V AudioSystem: ioConfigChanged() AUDIO_CLIENT_STARTED  io 13 port 546 num callbacks 0
+10-30 07:21:08.569  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.578  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.580  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.585  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.596  2756  2756 I BarTransitions.PhoneStatusBarTransitions: setNotchColor color = 0
+10-30 07:21:08.620  2580  2617 V AF::Track: getNextBuffer(571): underrun,  framesReady(0) < framesDesired(236), state: 6
+10-30 07:21:08.622  2580  2618 D AF::Track: presentationComplete(571): set: mPresentationCompleteFrames 804144 audioHalFrames 624
+10-30 07:21:08.622  2580  2618 V AF::Track: presentationComplete(571): waiting framesWritten:803520  mPresentationCompleteFrames:804144
+10-30 07:21:08.629  1945 19073 V AudioTrack: stop(546): prior state:STATE_ACTIVE
+10-30 07:21:08.629  2580 20491 V AF::Track: stop(571): calling pid 1945
+10-30 07:21:08.662  2580  2618 V AF::Track: presentationComplete(571): presentationComplete() mPresentationCompleteFrames 804144 framesWritten 805440
+10-30 07:21:08.662  2580  2618 V AF::Track: presentationComplete(571): complete framesWritten:805440  mPresentationCompleteFrames:804144
+10-30 07:21:08.668  2580  2618 V AudioPolicyService: AudioCommandThread() adding stop output portId 546
+10-30 07:21:08.668  2580  2618 V AudioPolicyService: inserting command: 4 at index 0, num commands 0
+10-30 07:21:08.668  2580  2595 V AudioPolicyService: AudioCommandThread() processing stop output portId 546
+10-30 07:21:08.668  2580  2595 V APM_AudioPolicyManager: stopOutput() portId 546 output 13, stream 1, session 4681
+10-30 07:21:08.668  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=0 mBeaconPlayingRefCount=0
+10-30 07:21:08.668  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices AUDIO_DEVICE_NONE
+10-30 07:21:08.668  2580  2595 V APM_AudioPolicyManager: setOutputDevices device AUDIO_DEVICE_NONE delayMs 106
+10-30 07:21:08.668  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:08.669  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device AUDIO_DEVICE_NONE or null device, force=0, patch handle=4
+10-30 07:21:08.669  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:08.669  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:08.720  1432  1432 D vendor.lge.hardware.thermal@1.2-impl: Read value from /proc/lge_power/adc/vts, 248
+10-30 07:21:08.727  1432  1432 D vendor.lge.hardware.thermal@1.2-impl: Read value from /proc/lge_power/adc/vts, 248
+10-30 07:21:08.841  1363 18492 D sensors_hal_light: handle_sns_std_sensor_event:79, ambient_light_event: ts=285454287261947, lux = 20, raw_adc=41, pdata=38
+10-30 07:21:08.948 19032 19032 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+10-30 07:21:08.953  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.953  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.953  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.953  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.953  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.954  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:08.954  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863882000000, pointerCount=1
+10-30 07:21:09.036  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.036  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.037  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.037  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.037  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.037  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.037  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123863882000000, eventTime=123863965000000, pointerCount=1
+10-30 07:21:09.045 19032 19032 I View    : PerformClick: com.google.android.material.radiobutton.MaterialRadioButton{298f4cc VFED..C.. ...p..ID 0,0-330,126 #7f08007c app:id/cauliflower}
+10-30 07:21:09.046 19032 19032 I View    : MotionEvent.ACTION_UP: mPrivateFlags: -2128590800,   mHasPerformedLongPress: false,   mIgnoreNextUpEvent: false
+10-30 07:21:09.071  1945  2548 V SoundPool: play(soundID=1, leftVolume=1.000000, rightVolume=1.000000, priority=0, loop=0, rate=1.000000)
+10-30 07:21:09.072  1945  2548 V AudioTrack: setSampleRate(546): prior state:STATE_STOPPED rate:48000
+10-30 07:21:09.073  1945  2548 V AudioTrack: start(546): prior state:STATE_STOPPED
+10-30 07:21:09.073  1945  2548 V AudioTrack: start(546): server read:-859300  cumulative flushed:0  client written:0
+10-30 07:21:09.073  2580 20491 V AF::Track: start(571): calling pid 1945 session 4681
+10-30 07:21:09.073  2580 20491 V AudioPolicyService: AudioCommandThread() adding start output portId 546
+10-30 07:21:09.074  2580 20491 V AudioPolicyService: inserting command: 3 at index 0, num commands 0
+10-30 07:21:09.075  2580  2595 V AudioPolicyService: AudioCommandThread() processing start output portId 546
+10-30 07:21:09.075  2580  2595 D APM_AudioPolicyManager: startOutput portId 546 output primary->(primary output)(13), stream 1, session 4681
+10-30 07:21:09.075  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+10-30 07:21:09.075  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:09.076  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+10-30 07:21:09.076  2580  2595 V APM_AudioPolicyManager: setOutputDevices device {type:0x2,@:} delayMs 0
+10-30 07:21:09.076  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:09.076  2580  2595 V APM_AudioPolicyManager: setOutputDevices: suppressing checkDeviceMuteStrategies
+10-30 07:21:09.076  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device {type:0x2,@:} or null device, force=0, patch handle=4
+10-30 07:21:09.077  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:09.077  1945  2548 V SoundPool: play returned 2729
+10-30 07:21:09.086  1945  5020 V AudioSystem: ioConfigChanged() event 8
+10-30 07:21:09.086  1945  5020 V AudioSystem: ioConfigChanged() AUDIO_CLIENT_STARTED  io 13 port 546 num callbacks 0
+10-30 07:21:09.132  1945  5020 D WifiClientModeImpl[wlan0]: getConativeWiFiQualityStatus keep previous WifiQuailityInfo
+10-30 07:21:09.140  2580  2617 V AF::Track: getNextBuffer(571): underrun,  framesReady(0) < framesDesired(236), state: 6
+10-30 07:21:09.142  2580  2618 D AF::Track: presentationComplete(571): set: mPresentationCompleteFrames 829104 audioHalFrames 624
+10-30 07:21:09.142  2580  2618 V AF::Track: presentationComplete(571): waiting framesWritten:828480  mPresentationCompleteFrames:829104
+10-30 07:21:09.148  1945 19073 V AudioTrack: stop(546): prior state:STATE_ACTIVE
+10-30 07:21:09.148  2580 20491 V AF::Track: stop(571): calling pid 1945
+10-30 07:21:09.182  2580  2618 V AF::Track: presentationComplete(571): presentationComplete() mPresentationCompleteFrames 829104 framesWritten 830400
+10-30 07:21:09.183  2580  2618 V AF::Track: presentationComplete(571): complete framesWritten:830400  mPresentationCompleteFrames:829104
+10-30 07:21:09.189  2580  2618 V AudioPolicyService: AudioCommandThread() adding stop output portId 546
+10-30 07:21:09.190  2580  2618 V AudioPolicyService: inserting command: 4 at index 0, num commands 0
+10-30 07:21:09.191  2580  2595 V AudioPolicyService: AudioCommandThread() processing stop output portId 546
+10-30 07:21:09.191  2580  2595 V APM_AudioPolicyManager: stopOutput() portId 546 output 13, stream 1, session 4681
+10-30 07:21:09.191  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=0 mBeaconPlayingRefCount=0
+10-30 07:21:09.191  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices AUDIO_DEVICE_NONE
+10-30 07:21:09.191  2580  2595 V APM_AudioPolicyManager: setOutputDevices device AUDIO_DEVICE_NONE delayMs 106
+10-30 07:21:09.191  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:09.195  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device AUDIO_DEVICE_NONE or null device, force=0, patch handle=4
+10-30 07:21:09.195  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:09.196  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:09.506 19032 19032 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230842/com.example.lunchtray:id/cancel_button>
+10-30 07:21:09.513 25092 25206 I Finsky  : [49] fgx.run(2): AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+10-30 07:21:09.515  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.515  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.515  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.515  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.515  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.516  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.516  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864444000000, pointerCount=1
+10-30 07:21:09.598  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.598  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.599  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.599  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.599  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.599  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.599  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123864444000000, eventTime=123864527000000, pointerCount=1
+10-30 07:21:09.609 19032 19032 I View    : PerformClick: com.google.android.material.button.MaterialButton{97478ad VFED..C.. ...p..ID 42,1458-519,1584 #7f08007a app:id/cancel_button}
+10-30 07:21:09.609 19032 19032 I View    : MotionEvent.ACTION_UP: mPrivateFlags: -2128590800,   mHasPerformedLongPress: false,   mIgnoreNextUpEvent: false
+10-30 07:21:09.632  1945  2548 V SoundPool: play(soundID=1, leftVolume=1.000000, rightVolume=1.000000, priority=0, loop=0, rate=1.000000)
+10-30 07:21:09.633  1945  2548 V AudioTrack: setSampleRate(546): prior state:STATE_STOPPED rate:48000
+10-30 07:21:09.633  1945  2548 V AudioTrack: start(546): prior state:STATE_STOPPED
+10-30 07:21:09.633  1945  2548 V AudioTrack: start(546): server read:-861944  cumulative flushed:0  client written:0
+10-30 07:21:09.633  2580 20491 V AF::Track: start(571): calling pid 1945 session 4681
+10-30 07:21:09.634  2580 20491 V AudioPolicyService: AudioCommandThread() adding start output portId 546
+10-30 07:21:09.634  2580 20491 V AudioPolicyService: inserting command: 3 at index 0, num commands 0
+10-30 07:21:09.634  2580  2595 V AudioPolicyService: AudioCommandThread() processing start output portId 546
+10-30 07:21:09.635  2580  2595 D APM_AudioPolicyManager: startOutput portId 546 output primary->(primary output)(13), stream 1, session 4681
+10-30 07:21:09.635  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+10-30 07:21:09.635  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:09.635  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+10-30 07:21:09.635  2580  2595 V APM_AudioPolicyManager: setOutputDevices device {type:0x2,@:} delayMs 0
+10-30 07:21:09.635  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:09.636  2580  2595 V APM_AudioPolicyManager: setOutputDevices: suppressing checkDeviceMuteStrategies
+10-30 07:21:09.636  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device {type:0x2,@:} or null device, force=0, patch handle=4
+10-30 07:21:09.636  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:09.636  1945  2548 V SoundPool: play returned 2730
+10-30 07:21:09.644  1945  1965 V AudioSystem: ioConfigChanged() event 8
+10-30 07:21:09.644  1945  1965 V AudioSystem: ioConfigChanged() AUDIO_CLIENT_STARTED  io 13 port 546 num callbacks 0
+10-30 07:21:09.701  2580  2617 V AF::Track: getNextBuffer(571): underrun,  framesReady(0) < framesDesired(236), state: 6
+10-30 07:21:09.703  2580  2618 D AF::Track: presentationComplete(571): set: mPresentationCompleteFrames 855984 audioHalFrames 624
+10-30 07:21:09.703  2580  2618 V AF::Track: presentationComplete(571): waiting framesWritten:855360  mPresentationCompleteFrames:855984
+10-30 07:21:09.706  1945 19073 V AudioTrack: stop(546): prior state:STATE_ACTIVE
+10-30 07:21:09.707  2580 20491 V AF::Track: stop(571): calling pid 1945
+10-30 07:21:09.743  2580  2618 V AF::Track: presentationComplete(571): presentationComplete() mPresentationCompleteFrames 855984 framesWritten 857280
+10-30 07:21:09.744  2580  2618 V AF::Track: presentationComplete(571): complete framesWritten:857280  mPresentationCompleteFrames:855984
+10-30 07:21:09.748  2580  2618 V AudioPolicyService: AudioCommandThread() adding stop output portId 546
+10-30 07:21:09.749  2580  2618 V AudioPolicyService: inserting command: 4 at index 0, num commands 0
+10-30 07:21:09.749  2580  2595 V AudioPolicyService: AudioCommandThread() processing stop output portId 546
+10-30 07:21:09.749  2580  2595 V APM_AudioPolicyManager: stopOutput() portId 546 output 13, stream 1, session 4681
+10-30 07:21:09.749  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=0 mBeaconPlayingRefCount=0
+10-30 07:21:09.749  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices AUDIO_DEVICE_NONE
+10-30 07:21:09.749  2580  2595 V APM_AudioPolicyManager: setOutputDevices device AUDIO_DEVICE_NONE delayMs 106
+10-30 07:21:09.750  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:09.753  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device AUDIO_DEVICE_NONE or null device, force=0, patch handle=4
+10-30 07:21:09.753  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:09.753  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:10.068 19032 19032 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+10-30 07:21:10.077  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.078  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.078  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.078  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.078  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.078  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.079  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_DOWN(0), id=0, displayId=0, tooltype=0, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865006000000, pointerCount=1
+10-30 07:21:10.133  1945  5020 D WifiClientModeImpl[wlan0]: getConativeWiFiQualityStatus keep previous WifiQuailityInfo
+10-30 07:21:10.159  1945  2498 D InputTransport: channel 'a493896 com.example.lunchtray/com.example.lunchtray.MainActivity (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.160  1945  2498 D InputTransport: channel 'edge-swipe (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.160  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.161  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.161  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.161  1945  2498 D InputTransport: channel 'swipe-up (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.161  1945  2498 D InputTransport: channel 'PointerEventDispatcher0 (server)' : action=ACTION_UP(0), id=0, displayId=0, tooltype=1, deviceId=-1, source=0x1002, flags=0x0, edgeFlags=0x0, metaState=0x0, buttonState=0x1, downTime=123865006000000, eventTime=123865089000000, pointerCount=1
+10-30 07:21:10.164 19032 19032 I View    : PerformClick: com.google.android.material.button.MaterialButton{9882a25 VFED..C.. ...P.... 349,1045-731,1171 #7f0801e8 app:id/start_order_btn}
+10-30 07:21:10.164 19032 19032 I View    : MotionEvent.ACTION_UP: mPrivateFlags: 16828464,   mHasPerformedLongPress: false,   mIgnoreNextUpEvent: false
+10-30 07:21:10.168  1945  2548 V SoundPool: play(soundID=1, leftVolume=1.000000, rightVolume=1.000000, priority=0, loop=0, rate=1.000000)
+10-30 07:21:10.170  1945  2548 V AudioTrack: setSampleRate(546): prior state:STATE_STOPPED rate:48000
+10-30 07:21:10.170  1945  2548 V AudioTrack: start(546): prior state:STATE_STOPPED
+10-30 07:21:10.170  1945  2548 V AudioTrack: start(546): server read:-864588  cumulative flushed:0  client written:0
+10-30 07:21:10.170  2580 20491 V AF::Track: start(571): calling pid 1945 session 4681
+10-30 07:21:10.170  2580 20491 V AudioPolicyService: AudioCommandThread() adding start output portId 546
+10-30 07:21:10.171  2580 20491 V AudioPolicyService: inserting command: 3 at index 0, num commands 0
+10-30 07:21:10.172  2580  2595 V AudioPolicyService: AudioCommandThread() processing start output portId 546
+10-30 07:21:10.172  2580  2595 D APM_AudioPolicyManager: startOutput portId 546 output primary->(primary output)(13), stream 1, session 4681
+10-30 07:21:10.172  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=1 mBeaconPlayingRefCount=0
+10-30 07:21:10.173  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:10.174  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+10-30 07:21:10.174  2580  2595 V APM_AudioPolicyManager: setOutputDevices device {type:0x2,@:} delayMs 0
+10-30 07:21:10.175  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:10.175  2580  2595 V APM_AudioPolicyManager: setOutputDevices: suppressing checkDeviceMuteStrategies
+10-30 07:21:10.175  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device {type:0x2,@:} or null device, force=0, patch handle=4
+10-30 07:21:10.175  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:10.176  1945  2548 V SoundPool: play returned 2731
+10-30 07:21:10.181  1945  5020 V AudioSystem: ioConfigChanged() event 8
+10-30 07:21:10.182  1945  5020 V AudioSystem: ioConfigChanged() AUDIO_CLIENT_STARTED  io 13 port 546 num callbacks 0
+10-30 07:21:10.241  2580  2617 V AF::Track: getNextBuffer(571): underrun,  framesReady(0) < framesDesired(236), state: 6
+10-30 07:21:10.242  2580  2618 D AF::Track: presentationComplete(571): set: mPresentationCompleteFrames 881904 audioHalFrames 624
+10-30 07:21:10.242  2580  2618 V AF::Track: presentationComplete(571): waiting framesWritten:881280  mPresentationCompleteFrames:881904
+10-30 07:21:10.250  1945 19073 V AudioTrack: stop(546): prior state:STATE_ACTIVE
+10-30 07:21:10.250  2580 20491 V AF::Track: stop(571): calling pid 1945
+10-30 07:21:10.284  2580  2618 V AF::Track: presentationComplete(571): presentationComplete() mPresentationCompleteFrames 881904 framesWritten 883200
+10-30 07:21:10.284  2580  2618 V AF::Track: presentationComplete(571): complete framesWritten:883200  mPresentationCompleteFrames:881904
+10-30 07:21:10.288  2580  2618 V AudioPolicyService: AudioCommandThread() adding stop output portId 546
+10-30 07:21:10.289  2580  2618 V AudioPolicyService: inserting command: 4 at index 0, num commands 0
+10-30 07:21:10.289  2580  2595 V AudioPolicyService: AudioCommandThread() processing stop output portId 546
+10-30 07:21:10.289  2580  2595 V APM_AudioPolicyManager: stopOutput() portId 546 output 13, stream 1, session 4681
+10-30 07:21:10.289  2580  2595 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=0 mBeaconPlayingRefCount=0
+10-30 07:21:10.290  2580  2595 V APM_AudioPolicyManager: getNewOutputDevices selected devices AUDIO_DEVICE_NONE
+10-30 07:21:10.290  2580  2595 V APM_AudioPolicyManager: setOutputDevices device AUDIO_DEVICE_NONE delayMs 106
+10-30 07:21:10.290  2580  2595 V APM_AudioPolicyManager: setOutputDevices() prevDevice {type:0x2,@:}
+10-30 07:21:10.292  2580  2595 V APM_AudioPolicyManager: setOutputDevices setting same device AUDIO_DEVICE_NONE or null device, force=0, patch handle=4
+10-30 07:21:10.293  2580  2595 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+10-30 07:21:10.293  2580  2595 V AudioPolicyService: AudioCommandThread() going to sleep
+10-30 07:21:10.611 19032 19032 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: 0,00 €"
+10-30 07:21:10.613 19032 19053 I TestRunner: finished: order_reset_after_cancel_from_entree_menu(com.example.lunchtray.OrderFunctionalityTests)
