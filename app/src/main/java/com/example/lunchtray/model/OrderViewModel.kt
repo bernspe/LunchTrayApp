@@ -27,11 +27,6 @@ class OrderViewModel : ViewModel() {
     // Map of menu items
     val menuItems = DataSource.menuItems
 
-    // Default values for item prices
-    private var previousEntreePrice = 0.0
-    private var previousSidePrice = 0.0
-    private var previousAccompanimentPrice = 0.0
-
     // Default tax rate
     private val taxRate = 0.08
 
@@ -69,43 +64,51 @@ class OrderViewModel : ViewModel() {
      * Set the entree for the order.
      */
     fun setEntree(entree: String) {
-        // TODO: if _entree.value is not null, set the previous entree price to the current
-        //  entree price.
+        val currEntree = menuItems[entree]
 
-        // TODO: if _subtotal.value is not null subtract the previous entree price from the current
-        //  subtotal value. This ensures that we only charge for the currently selected entree.
-
+        if (_entree.value != null) {
+            _subtotal.value = _subtotal.value!! - _entree.value?.price!!
+        }
         // TODO: set the current entree value to the menu item corresponding to the passed in string
+        _entree.value = currEntree
         // TODO: update the subtotal to reflect the price of the selected entree.
+        if (currEntree != null) {
+            updateSubtotal(currEntree.price)
+        }
     }
 
     /**
      * Set the side for the order.
      */
     fun setSide(side: String) {
-        // TODO: if _side.value is not null, set the previous side price to the current side price.
-
-        // TODO: if _subtotal.value is not null subtract the previous side price from the current
-        //  subtotal value. This ensures that we only charge for the currently selected side.
+        val currSide = menuItems[side]
+        // TODO: if _side.value is not null, set the previous side price to the current side pric
+        if (_side.value != null) {
+            _subtotal.value = _subtotal.value!! - _side.value?.price!!
+        }
 
         // TODO: set the current side value to the menu item corresponding to the passed in string
+        _side.value = currSide
         // TODO: update the subtotal to reflect the price of the selected side.
+        currSide?.let { updateSubtotal(it.price) }
     }
 
     /**
      * Set the accompaniment for the order.
      */
     fun setAccompaniment(accompaniment: String) {
+        val currAcc = menuItems[accompaniment]
         // TODO: if _accompaniment.value is not null, set the previous accompaniment price to the
         //  current accompaniment price.
-
-        // TODO: if _accompaniment.value is not null subtract the previous accompaniment price from
-        //  the current subtotal value. This ensures that we only charge for the currently selected
-        //  accompaniment.
+        if (_accompaniment.value != null) {
+            _subtotal.value = _subtotal.value!! - _accompaniment.value?.price!!
+        }
 
         // TODO: set the current accompaniment value to the menu item corresponding to the passed in
         //  string
+        _accompaniment.value = currAcc
         // TODO: update the subtotal to reflect the price of the selected accompaniment.
+        currAcc?.let { updateSubtotal(it.price) }
     }
 
     /**
@@ -115,8 +118,10 @@ class OrderViewModel : ViewModel() {
         // TODO: if _subtotal.value is not null, update it to reflect the price of the recently
         //  added item.
         //  Otherwise, set _subtotal.value to equal the price of the item.
-
+        _subtotal.value =
+            if (_subtotal.value != null) _subtotal.value?.plus(itemPrice) else itemPrice
         // TODO: calculate the tax and resulting total
+        calculateTaxAndTotal()
     }
 
     /**
@@ -124,7 +129,9 @@ class OrderViewModel : ViewModel() {
      */
     fun calculateTaxAndTotal() {
         // TODO: set _tax.value based on the subtotal and the tax rate.
+        _tax.value = _subtotal.value?.times(taxRate)
         // TODO: set the total based on the subtotal and _tax.value.
+        _total.value = _tax.value?.let { _subtotal.value?.plus(it) }
     }
 
     /**
@@ -132,5 +139,11 @@ class OrderViewModel : ViewModel() {
      */
     fun resetOrder() {
         // TODO: Reset all values associated with an order
+
+        _entree.value = null
+        _subtotal.value = 0.0
+        _total.value = 0.0
+        _side.value = null
+        _accompaniment.value = null
     }
 }
